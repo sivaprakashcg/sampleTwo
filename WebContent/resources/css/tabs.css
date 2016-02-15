@@ -1,0 +1,55 @@
+.ui-tabs  {border: none; background: none}
+.ui-tabs  ul.ui-tabs-nav {
+	border: none;
+	background: none;
+	border-radius: 0px;
+	padding: 0px;
+	padding-top: 0px;
+	height:38px;
+	vertical-align:top;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+.ui-tabs  ul.ui-helper-clearfix {
+	display: inline-block;
+}
+.ui-tabs  ul.ui-helper-clearfix:before {
+	display: inline-block;
+}
+.ui-tabs  ul.ui-helper-clearfix:after {
+	display: inline-block;
+}
+.ui-tabs .ui-tabs-nav li a  {color: #636363; font-family: arial; font-size: 12px; font-weight: normal;
+	line-height:32px;
+	padding: 0px 15px 0px 15px;
+} 
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {color: #0066CC; font-family: arial; font-size: 11px; font-weight: bolder;
+	line-height:38px;
+	padding: 0px 15px 0px 15px;
+}
+.ui-tabs-nav.ui-widget-header { background-color: white; }
+.ui-tabs .ui-tabs-nav li.ui-state-default {
+	background-image: url("../images/Tabs/tab_type2/inactive_tab2_left.png"); 
+	border-position: left top;
+	margin-right:2px;
+	height:32px;
+	line-height:25px;
+	padding:0px;
+	top: 6px;
+	display: inline-block;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+	background-image: url("../images/Tabs/tab_type2/active_tab2_left.png"); 
+	border-position: left top;
+	margin-right:2px;
+	height:38px;
+	padding:0px 0px 0px 0px;
+	padding-bottom: 0px;
+	top: 0px;
+	display: inline-block;
+}
+
+.ui-tabs .ui-tabs-panel {
+	border: 1px solid #AAAAAA;
+}

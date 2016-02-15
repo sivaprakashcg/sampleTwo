@@ -1,0 +1,204 @@
+.containerMinHeight {
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+}
+
+.containerAcrdngMinHeight {
+	min-height: 460px;
+	height: auto !important;
+	height: 460px;
+}
+
+.messages .messageContainer {
+	padding: 10px;
+	width: 98%;
+}
+
+.messages .messageContainer .messageIcon {
+	float: left;
+    margin-left: 10px;
+    padding: 0 10px 0 0;
+}
+
+.messages .messageContainer .messageHeader {
+	font-weight: bold;
+}
+
+.messages .messageContainer.ui-state-error {
+	background: none repeat scroll 0 0 #FEEAE9;
+	border: 0px solid #44B984;
+    color: #cc3a21;
+    font-weight: bold;
+	width: 98%;
+}
+
+
+.messages .messageContainer .ui-icon {
+    background: url("../images/icons/icon_success_msg.png") no-repeat scroll 0 0 transparent;
+    height: 16px;
+    width: 16px;
+}
+
+.messages .messageContainer.ui-icon-other .ui-icon {
+    background: url("../images/icons/icon_information_msg.png") no-repeat scroll 0 0 transparent;
+    height: 16px;
+    width: 16px;
+}
+
+.messageContainer.ui-icon-info {
+	/* border: 1px solid #449ADC;
+	color: #449ADC;
+	background: none; */
+	background: none repeat scroll 0 0 #EAFBCF;
+    border: 0px solid #44B984;
+    color: #49A417;
+    font-weight: bold;
+}
+
+.messageContainer.ui-icon-other {
+	/* border: 1px solid #449ADC;
+	color: #449ADC;
+	background: none; */
+	background: none repeat scroll 0 0 #C9DAF8;
+    border: 0px solid #44B984;
+    color: #285BAC;
+    font-weight: bold;
+}
+
+.messages .messageContainer.ui-state-error .ui-icon {
+	background-image: url("../images/icons/icon_error_msg.png");
+}
+
+.horizontalSpace {
+	padding-left: 20px;
+	display: inline;
+}
+
+.verticalSpace {
+	height: 5px;
+}
+
+.verticalSpace2 {
+	height: 10px;
+}
+
+.verticalSpace3 {
+	height: 15px;
+}
+
+.verticalSpace6 {
+	height: 30px;
+}
+
+.horizontalRule {
+	border-top: 1px solid #5C9CCC;
+	height: 1px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.inlineDiv {
+	display: inline;
+}
+
+.hiddenDiv {
+	display: none;
+}
+
+.inlineButtons {
+	font-size: 9px;
+}
+
+.smallContent {
+	font-size: 9px;
+}
+
+.navigationText {
+	color: #085080;
+}
+
+.buttonLink {
+	height: 30px;
+	padding-top: 5px;
+	display: inline;
+}
+
+.sectionHeading {
+	color: #333333;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.sectionSubHeading {
+	color: #085080;
+	font-weight: bold;
+	font-size: 9px;
+}
+
+.inputFormContainer .sectionError {
+	color: red;
+}
+
+.centerAlign {
+	text-align: center;
+}
+.leftAlign {
+	text-align: left;
+}
+.rightAlign {
+	text-align: right;
+}
+
+.mandatory-info {
+	color: red;
+	width: 7px;
+}
+
+.mandatory-infoSubheadingAdjust {
+	float: left;
+}
+
+.customPanel {
+	margin-bottom: 2px;
+	overflow: auto;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	position: relative;
+	padding-bottom: 5px;
+}
+
+.ui-dialog-content.fixedDialog {
+	overflow: hidden;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+	color: white;
+}
+
+.footerButtons {
+	text-align: right;
+	width: 250px
+}
+
+.ui-state-default.redButton,.ui-widget-content .ui-state-default.redButton,.ui-widget-header .ui-state-default.redButton {
+	background: none repeat scroll 0 0 #CE0000;
+	color: white;
+}
+
+.confirmationText {
+	height: 125px;
+}
+
+
+
+.elementInVisible {
+	visibility: hidden;
+}
+
+.ui-widget-content a.addLink {
+	color: #009900;
+	text-decoration: none
+}

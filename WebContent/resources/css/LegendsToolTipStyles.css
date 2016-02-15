@@ -1,0 +1,69 @@
+#maintable{
+	width:100%;
+	background-color: black;
+	height:100%;
+}
+.tips {
+	background-color: white;
+}
+.legend{
+	cursor: pointer;
+	width: 15px;
+	height: 15px;
+}
+#legend1{
+	background-color: red;
+}
+#legend2{
+	margin-left: 0.7em;
+	margin-top: -0.625em; 
+	background-color: blue;
+	}
+#legend3{
+	margin-top: 0.1em;
+	background-color: Greenyellow;
+	}
+#legend4{
+	margin-left: 0.7em;
+	margin-top: -0.625em; 
+	background-color: purple;
+	}
+#legends{
+	float: right;
+	width: 30px;
+	height: 30px;
+	z-index: 3;
+}
+
+#legendcontent {
+    background-color: #FEF9D8;
+    border: 1px solid #FBE973;
+    position: absolute;
+    width: 200px;
+    z-index: 100;
+}
+.legendContentImage{
+width: 15px;
+	height: 15px;
+	box-shadow: 0px 0px 1px 2px #888888;
+}
+
+.LegendColor{
+	margin-top: 1em;
+	margin-left: 1em;
+}
+.LegendText{
+	color: #333333;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 4em;
+    margin-top: -1.5em;
+    line-height: 16px;
+}
+#ClosePopUP{
+	float: right;
+	margin-top: 0.35em;
+	margin-right: 0.50em;
+	border:1px solid black;
+}

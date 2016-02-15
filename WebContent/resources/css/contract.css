@@ -1,0 +1,140 @@
+.contractHeader {
+	width: 100%; 
+	background-color: White; 
+	border: 1px solid #d0e0e0
+}
+
+.contractTabContent {
+	margin: 0px 20px 0 15px;	
+}
+
+.contractTabHeader {
+	width: 100%; 
+	background-color: White; 
+	border: 1px solid #d0e0e0; 
+}
+
+.contractModuleHeader {
+	width: 100%; 
+	background-color: White; 
+	border: 1px solid #d0e0e0; 
+	margin-top: 10px;
+}
+
+.dateField {
+	vertical-align: bottom;
+	margin : 2px 3px;
+}
+
+.mandatorySign {
+	color: red;
+}
+
+.width100 {
+	width: 100%; 
+}
+
+.width80 {
+	width: 80%; 
+}
+
+.width50 {
+	width: 50%; 
+}
+
+.width20 {
+	width: 20%; 
+}
+
+.width2 {
+	width: 2px; 
+}
+
+.inputTextBox_Medium_class {
+	border-color: #dbdbdb;
+}
+
+/* .inputTextBox_Date_class:focus, .inputTextBox_Max_class:focus, .inputTextBox_Small_class:focus,
+.inputTextBox_Medium_class:focus, textarea:focus { 
+	background-color:#F0FFFF;
+	border-color: #6EA2DE;
+    box-shadow: 0px 0px 10px #6EA2DE;
+    -webkit-box-shadow: 0px 0px 10px #6EA2DE;
+}
+
+select:focus {
+	border-color: #6EA2DE;
+    box-shadow: 0px 0px 10px #6EA2DE;
+    -webkit-box-shadow: 0px 0px 10px #6EA2DE;
+}
+
+.inputTextBox_Date_class:hover, .inputTextBox_Max_class:hover, .inputTextBox_Small_class:hover, 
+.inputTextBox_Medium_class:hover, textarea:hover { 
+	background-color:#FFFFF0;
+	border-color: #c2e172;
+    box-shadow: 0px 0px 10px #c2e172;
+    -webkit-box-shadow: 0px 0px 10px #c2e172;
+} */
+
+.textarea {	
+	resize: none;	
+}
+
+.prefix, .currencyDropdown {
+	width: 60px;
+}
+
+.labelPosistion {
+	float: left;
+	margin: auto auto auto 5px;
+}
+
+.glowCal {
+	-webkit-box-shadow: 1px 1px 5px 1px #6EA2DE;
+	box-shadow: 1px 1px 5px 1px #6EA2DE;
+}
+
+textarea {
+	resize: none
+}
+
+.rightFloat {
+	float: right;
+}
+
+.headerContractNo {
+	font-size: 15px;
+	float: right;
+	padding-right: 25px;
+}
+
+.leftAligned {
+	padding-left:2px;
+}
+
+.centerAligned {
+	text-align:center;
+}
+
+.hyper_Link_Class {
+	font-family: Arial ! important;
+	font-size: 12px ! important;
+	font-weight: normal ! important;
+	color: BLUE ! important;
+	cursor: pointer ! important;
+}
+
+.hyper_Link_Class:hover {
+	font-family: Arial ! important;
+	font-size: 12px ! important;
+	font-weight: normal ! important;
+	color: GREEN! important;
+	cursor: pointer ! important;
+}
+.hyper_Link_Class:active {
+	font-family: Arial ! important;
+	font-size: 12px ! important;
+	font-weight: normal ! important;
+	color: PINK! important;
+	cursor: pointer ! important;
+}

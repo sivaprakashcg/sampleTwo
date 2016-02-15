@@ -1,0 +1,159 @@
+@CHARSET "ISO-8859-1";
+.context-menu-list {
+    min-width: 70px;
+    max-width: 100px;
+    list-style-type: none;
+    
+    border: 1px solid #DDD;
+    background: #00ffff;
+    
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+       -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        -ms-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+         -o-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.context-menu-item {
+    padding: 2px 2px 2px 24px;
+    background-color: #EEE;
+    position: relative;
+    -webkit-user-select: none;
+       -moz-user-select: -moz-none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.context-menu-separator {
+    padding-bottom:0;
+    border-bottom: 1px solid #DDD;
+}
+.context-menu-root{
+	min-width: 50px;
+    max-width: 100px;
+}
+
+.labels > ul {
+    margin: 0; 
+    padding: 0;
+    list-style:none;
+    display: block;
+    float: none;
+}
+.labels > ul > li {
+    display: list-item;
+    width: auto;
+    height: 20px;
+    border: 1px solid #CCC;
+    overflow: hidden;
+    
+}
+.labels > ul > li.selected,
+.labels > ul > li:hover { border: 1px solid #000; }
+.table_Caption {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+	background: #ECF5F8 !important;
+	color: #5c5c5c;
+	height: 20px;
+	padding-left: 10px;
+	text-align: left;
+	
+width:80%;
+	
+}
+.dataTable_RightValue{
+font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	background: WHITE !important;
+	color: #5c5c5c;
+	height: 20px;	
+	text-align: center;
+	border: 1pt solid #CCCCCC !important;
+}
+.dataTable_headerBG_class {
+    background-color: #ECF5F8;
+    border: 1px solid #ADADAD!important;
+    color: BLACK!important;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+width:70px!important;
+min-width:70px !important;
+max-width:70px !important;
+heigth:20px !important;
+}
+.dataTable_headerBG_classB {
+    background-color: #ECF5F8;
+    border: 1px solid #ADADAD!important;    
+    color: BLACK!important;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    width:190px!important;
+    text-align:center;
+    vertical-align:baseline;
+    min-width:190px !important;
+max-width:190px !important;
+height:30px !important;
+}
+.editDataTableValue, .dataTableValue{
+   border: 1px solid #ADADAD !important;
+   
+    font-family: Arial!important;
+    font-size: 11px!important;
+    font-weight: normal!important;
+    text-align: center!important;
+overflow: hidden!important; 
+width:8.88px !important;
+min-width:8.88px !important;
+max-width:8.88px !important;
+height:20px !important;
+
+}
+.dataTableHeader {
+    background-color: #ECF5F8 !important;
+   border: 1px solid #ADADAD !important;
+    color: #4C4C4C !important;
+    font-family: Arial !important;
+    font-size: 11px !important;
+    font-weight: normal !important;
+    text-align: center!important;
+width:8.88px !important;
+min-width:8.88px !important;
+max-width:8.88px !important;
+height:20px !important;
+}
+.dataTable_RightValue_hyperLink_Class{
+font-family: Arial;
+	font-weight: normal;
+	 cursor: pointer;
+	font-size: 12px;
+	background: WHITE !important;
+	color: #2A7DAC;
+	height: 20px;	
+	text-align: center;
+	border: 1pt solid #CCCCCC !important;
+}
+.dataTable_headerBG_classHighlight {
+    background-color: RED !important;
+    border: 1px solid #ADADAD!important;
+    color: BLACK!important;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+width:70px!important;
+min-width:70px !important;
+max-width:70px !important;
+heigth:20px !important;
+}
+  
+

@@ -1,0 +1,537 @@
+
+*/
+.clear {
+	height: 100%
+}
+
+.clear:after {
+	content: '';
+	display: block;
+	clear: both
+}
+
+/*Style class for Header background of a section*/
+.section-header-background {
+	background-color: #DEDEDE;
+	height: 30px;
+	text-align: left;
+	padding-left: 10px;
+	border: 1px Solid #D4D0C8;
+}
+
+/*Style class for Header text of a section*/
+.section-header-text {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+/*Style class for Labels*/
+.labelClass {
+	color: #555960;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: right;
+}
+
+.valueClass {
+	font-family: Arial;
+	font-weight: regular;
+	font-size: 11px;
+	color: #323232;
+}
+
+.labelClass_left {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 11px;
+	color: #323232;
+	text-align: left;
+	text-decoration: none;
+	padding-left: 0px;
+	white-space: nowrap;
+}
+
+.labelClass_right {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 11px;
+	color: #323232;
+	text-align: right;
+	text-decoration: none;
+	padding-left: 0px;
+	white-space: nowrap;
+}
+
+/*Style class for Labels to diaplay only data*/
+.labelClass_data {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: #323232;
+	text-align: right;
+	text-decoration: none;
+	padding-left: 50px;
+	white-space: nowrap;
+}
+
+/*Style class for Labels to diaplay only data on right side*/
+.labelClass_data_right {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+	color: #323232;
+	text-align: left;
+	text-decoration: none;
+	padding-right: 50px;
+	padding-left: 20px;
+	white-space: nowrap;
+}
+
+/*Style class for Data Table Headers*/
+.dataTableHeader {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: #5C5C5C;
+	text-align: center;
+	border-left: 1px Solid #CCCCCC;
+	border-top: 1px Solid #CCCCCC;
+	border-bottom: 1px Solid #CCCCCC;
+	background-color: #F1F1F1;
+}
+
+/*Style class for Data Table Values*/
+.inputiconValue {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+	color: #5C5C5C;
+	text-align: center;
+}
+
+.dataTableValue {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+	color: #5C5C5C;
+	height: 15px;
+	text-align: center;
+	border-right: 0pt solid #CCCCCC;
+	border-bottom: 1pt solid #CCCCCC;
+	border-top: 0pt solid #CCCCCC;
+	border-left: 1pt solid #CCCCCC;
+}
+
+.dataTableRightValue {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+	color: #5C5C5C;
+	height: 30px;
+	text-align: center;
+	border-right: 1pt solid #CCCCCC;
+	border-bottom: 1pt solid #CCCCCC;
+	border-left: 1pt solid #CCCCCC;
+	border-top: 0pt solid #CCCCCC;
+}
+
+/*Style class for Medium Sized Dropdown*/
+.selectOneMenuMedium {
+	width: 155px;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 11px;
+	color: #323232;
+}
+
+/*Style class for Medium Sized Dropdown*/
+.selectOneMenuSmall {
+	width: 80px;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 11px;
+	color: #323232;
+}
+
+/*Style class for Small Sized Dropdown*/
+.selectOneMenuEtraSmall {
+	width: 65px;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 11px;
+	color: #323232;
+}
+/*Style class for Medium Sized Textbox*/
+.inputTextMedium {
+	width: 150px;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 11px;
+	color: #323232;
+}
+/*Style class for Long Sized Textbox*/
+.inputTextLong {
+	width: 450px;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 11px;
+	color: #323232;
+}
+
+.inputTextDate {
+	width: 70px;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 11px;
+	color: #323232;
+}
+
+.inputTextSmall {
+	width: 40px;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 11px;
+	color: #323232;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+.table_submenu {
+	border-color: #dddddd;
+	border-collapse: collapse;
+}
+
+.sub_menu {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 20px;
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: normal;
+	color: #323232;
+	text-align: center;
+}
+
+.nav_cont {
+	height: 30px;
+	display: table;
+	border-spacing: 0px;
+}
+
+.nav_top_home {
+	height: 30px;
+	background-image: url("images/Nav_1.png");
+	background-repeat: repeat-x;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: table-cell;
+	cursor: hand;
+}
+
+.nav_top_item {
+	height: 30px;
+	background-image: url("images/Nav_1.png");
+	background-repeat: repeat-x;
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: table-cell;
+	cursor: hand;
+}
+
+.nav_top_item:hover {
+	height: 30px;
+	background-image: url("images/Nav_1.png");
+	background-repeat: repeat-x;
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #d3d7cf;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: table-cell;
+	cursor: hand;
+}
+
+.nav_top_div {
+	height: 30px;
+	background-image: url("images/Nav_div.png");
+	background-repeat: repeat-x;
+	width: 2px;
+}
+
+.page_header {
+	height: 60px;
+	background-image: url("images/header_bg.png");
+	background-position: bottom;
+	background-repeat: repeat-x;
+}
+
+.page_logo {
+	padding-left: 8px;
+	padding-top: 8px;
+}
+
+.page_header_links {
+	font-size: 10px;
+	font-family: Arial;
+	font-weight: normal;
+	color: #353638;
+	padding-top: 8px;
+	padding-right: 8px;
+}
+
+.page_header_user_info {
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: normal;
+	color: #353638;
+	padding-bottom: 8px;
+	padding-right: 8px;
+}
+
+.page_header_user_name_info {
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #0066a4;
+}
+
+.page_header_user_login_info {
+	font-size: 10px;
+	font-family: Arial;
+	font-weight: normal;
+	color: #353638;
+}
+
+#breadcrumb_nav {
+	height: 23px;
+	font-size: 10px;
+	font-family: Arial;
+	font-weight: normal;
+	color: #323232;
+	vertical-align: middle;
+	padding-left: 10px;
+	/*border-bottom: 1pt solid #CCCCCC;*/
+}
+
+#page_title {
+	height: 30px;
+	background-image: url("images/top.png");
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: normal;
+	color: #323232;
+	vertical-align: middle;
+	padding-left: 10px;
+	/*border-bottom: 1pt solid #CCCCCC;*/
+}
+
+#page_inst_message {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: #323232;
+	padding-top: 15px;
+	padding-left: 10px;
+	/*   padding-bottom:20px;*/
+}
+
+.page_title {
+	height: 30px;
+	background-image: url("images/top.png");
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #323232;
+	vertical-align: middle;
+	padding-left: 10px;
+	/*border-bottom: 1pt solid #CCCCCC;*/
+}
+
+.page_sub_title {
+	height: 24px;
+	background-image: url("images/top.png");
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #323232;
+	vertical-align: middle;
+	padding-left: 10px;
+	/*border-bottom: 1pt solid #CCCCCC;*/
+}
+
+#popUp_title {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: #0066a4;
+	padding-top: 16px;
+	padding-left: 186px;
+	padding-bottom: 15px;
+}
+
+#popUp_inst_message {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: #323232;
+	padding-left: 25px;
+	padding-bottom: 20px;
+}
+
+#popUp_attrNames {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: #323232;
+	padding-left: 20px;
+	padding-bottom: 11px;
+}
+
+#popUp_attrValues {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+	color: #323232;
+	padding-left: 0px;
+}
+
+table.tableClass1 {
+	padding-left: 10px;
+}
+
+.tableCaption {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	background-image: url("images/top.png");
+	color: #5c5c5c;
+	height: 20px;
+	padding-left: 10px;
+	text-align: left;
+	border-left: 1pt solid #CCCCCC;
+	border-right: 1pt solid #CCCCCC;
+	border-top: 0pt solid #CCCCCC;
+	border-bottom: 0pt solid #CCCCCC;
+}
+
+.buttonsContainer {
+	position: relative;
+	padding-left: 14px;
+	padding-top: 20px;
+}
+
+.button {
+	border: 0;
+	background-image: url(images/button-pick1.png);
+	background-repeat: repeat-x;
+	/*background-color:#3f3f3f;   */
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	height: 22px;
+	padding-left: 16px;
+	padding-right: 16px;
+	cursor: pointer;
+}
+
+/*Style class for collapsable Group title*/
+.groupClass {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 11px;
+	color: #323232;
+	text-align: left;
+	text-decoration: none;
+	padding-left: 0px;
+}
+/*Style class for Data Table Headers*/
+.tableHeader {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: #5C5C5C;
+	text-align: left;
+	padding-left: 10px;
+	border: 1px Solid #CCCCCC;
+	background-color: #F1F1F1;
+	height: 24px;
+}
+
+table.tableClassSchedule td {
+	border-right: 1pt solid #CCCCCC;
+	border-bottom: 1pt solid #CCCCCC;
+	border-top: 0pt solid #CCCCCC;
+	border-left: 0pt solid #CCCCCC;
+}
+
+/*Style Class for link within a datatable*/
+.dataTablelinkClass {
+	text-decoration: underline;
+	color: #5C5C5C;
+	cursor: hand;
+}
+
+.schedule_title {
+	height: 25px;
+	background-image: url("images/top.png");
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #323232;
+	text-align: left;
+	padding-left: 12px;
+}
+
+.summary_table_header {
+	height: 25px;
+	background-image: url("images/top.png");
+	font-size: 11px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #323232;
+	text-align: center;
+	border-right: 1px Solid #CCCCCC;
+}
+
+.table_Value {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+	color: #5C5C5C;
+	height: 15px;
+	text-align: center;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+
+/*Style class for Max Sized Dropdown*/
+.selectOneMenuMax {
+	width: 220px;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 11px;
+	color: #323232;
+}
+
+.ui-datepicker-week-end a {
+    color: black !important;
+}

@@ -1,0 +1,432 @@
+/**
+ *********************************************
+ * Prototype of styles for horizontal CSS-menu
+ * @data 25.01.2010
+ *********************************************
+ * (X)HTML-scheme:
+ *  <div id="menu">
+ *      <ul class="menu">
+ *          <li><a href="#" class="parent"><span>level 1</span></a>
+ *              <div><ul>
+ *                  <li><a href="#" class="parent"><span>level 2</span></a>
+ *                      <div><ul><li><a href="#"><span>level 3</span></a></li></ul></div>
+ *                  </li>
+ *              </ul></div>
+ *          </li>
+ *          <li class="last"><a href="#"><span>level 1</span></a></li>
+ *      </ul>
+ *  </div>
+ *********************************************
+ */
+ 
+ /* start hide menu bar changes */
+.logout_icons_hide {
+    float: right;
+    margin: 0 0 0 0;
+    padding-top: 5px;
+    width: 150px;
+}
+#top_menu_bar_hide {
+    background: url("../images/top_bar/top_bar_bg_small.png") repeat-x scroll 0 0 transparent;
+}
+#top_menu_bar_hide {
+	height: 23px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    valign:top;
+    vertical-align: top;
+}
+/* end hide menu bar changes */
+
+#top_menu_bar {
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    valign:top;
+    vertical-align: top;
+}
+/* #menu {
+    position:relative;
+    z-index:100;
+    height:32px;
+    margin:-53px 0 0 270px;
+    width:500px;
+} */
+#menu {
+	float: left;
+	height: 32px;
+	margin: -37px 0 0 0;
+	position: relative;
+	width: 820px;
+	z-index: 100;
+	text-transform:capitalize;
+}
+
+#menu #MOD {
+	padding-left: 0px;
+}
+
+#menu .menu {
+	position: relative;
+	float: left;
+}
+
+#menu * {
+	list-style: none;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+#menu a {
+	display: block;
+	padding: 7px 10px 7px 14px;
+	white-space: wrap;
+}
+
+#menu li {
+	float: left;
+	background: #000;
+}
+
+#menu li li {
+	float: none;
+	_border: 1px solid #fff; /** fix for ie6 */
+}
+
+#menu div {
+	margin: 0 0 0 -1px;
+	z-index: -99;
+	visibility: hidden;
+	position: absolute;
+	/* background:url(images/pix.gif); */
+	/*background:url(images/Menu/dropdown_menu_top.jpg) no-repeat; */
+	/*background: url(../images/Menu/icon_arrow.png) no-repeat left 7px;*/    
+	background-color: #FCFCFC;
+	border-bottom: 1px solid #bdbdbd;
+	border-right: 1px solid #bdbdbd;
+	border-left: 1px solid #bdbdbd;
+	border-top: 1px solid #bdbdbd;
+	border-radius: 0 5px 5px 5px;
+	width: 160px;
+}
+#menu li.menutext:hover {
+	/*background: url('images/Menu/dropdown_menu_left.jpg') left,
+		url('images/Menu/dropdown_menu_top_bg.jpg') center,
+		url('images/Menu/dropdown_menu_right.jpg') right;
+	background-repeat: no-repeat, no-repeat, no-repeat;*/
+	/*background: #FCFCFC;*/
+	border-radius: 5px 5px 0 0;
+	border-left: 1px solid #bdbdbd;
+	border-top: 1px solid #bdbdbd;
+	border-right: 1px solid #bdbdbd;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+#menu div div {
+	margin: -24px 0 0 -1px;
+	left: 100%;
+}
+
+#menu li:hover>div {
+	visibility: visible;
+}
+
+/* menu::special styles */
+/* menu::level 1 */
+#menu a {
+	text-decoration: none;
+	color: #000;
+	position: relative;
+	z-index: 77;
+}
+
+#menu a:hover {
+	/*background: url(../images/back.png);*/
+	color: #006095;
+}
+
+#menu a:hover span {
+	color: #555960;
+}
+
+#menu>ul>li:hover>a {
+	/*background: url(../images/back.png);*/
+	color: #555960;
+}
+/*#menu>ul>li>a:hover {
+border-radius: 5px 5px 0 0;
+	border-left: 1px solid #bdbdbd;
+	border-top: 1px solid #bdbdbd;
+	border-right: 1px solid #bdbdbd;
+	border-bottom: 1px solid #FFFFFF;
+	background: #d1ebf4;
+	color: #555960;
+}*/
+#menu>ul>li:hover>a span {
+	color: #006095;
+}
+
+#menu span {
+	font: 14px Arial;
+	color: #006095;
+}
+
+#menu li {
+	background: none;
+}
+/* menu::level >= 2 */
+#menu li li a {
+	padding: 0;
+	position: static;
+}
+
+#menu li li a:hover {
+	background: #d1ebf4;
+}
+
+#menu li li a span {
+	font: 12px Arial;
+	color: #555960;
+}
+
+#menu li li a:hover span {
+	font: 12px Arial;
+	color: #006095;
+}
+
+#menu li li a.parent span {
+	background: url(../images/pointer.gif) no-repeat right 9px;
+	_background-position: right 10px;
+	text-transform:capitalize;
+}
+
+*+html #menu li li a.parent span {
+	background-position: right 10px;
+	text-transform:capitalize;
+}
+
+#menu li li a.parent:hover span {
+	background-position: right -49px;
+	text-transform:capitalize;
+}
+
+*+html #menu li li a.parent:hover span {
+	background-position: right -48px;
+	text-transform:capitalize;
+}
+
+#menu li li span {
+	display: block;
+	text-transform: none;
+	line-height: 16px;
+	padding: 4px 25px 4px 14px;
+	font-size: 11px;
+	text-transform:capitalize;
+}
+
+#menu li div { /* background:url(images/back.png); */
+	background-color: :red;
+}
+/** <fix for ie6> */
+#menu div div {
+	_margin-top: -25px;
+	_background: #fff;
+}
+
+#menu li li li {
+	_border: 1px solid #fff;
+}
+
+#menu div div div {
+	_background: #fff;
+}
+
+#menu li li li li {
+	_border: 1px solid #fff;
+}
+/** </fix for ie6> */
+
+/* lava lamp */
+div#menu li.back {
+	width: 10px;
+	height: 32px;
+	z-index: 8;
+	position: absolute;
+}
+
+div#menu li.back .left {
+	width: auto;
+	height: 32px;
+	float: none;
+	position: relative;
+	top: 0;
+	left: 0;
+	visibility: visible;
+}
+
+div#menu .top_menu_divider {
+	height: 18px;
+	margin: 0 0 0 0;
+	padding: 6px 0 0 0;
+}
+
+.space {
+	width: 40px;
+}
+
+/* top bar user profile styles (start) */
+#eflightlogo {
+    height: 40px;
+    margin: 0;
+    padding-bottom: 30px;
+    padding-left: 350px;
+}
+#bristowlogo {
+    height: 30px;
+    margin: 0;
+    padding-bottom: 40px;
+    padding-left: 0;
+}
+.welcome_bg {
+    background: url("../images/top_bar/welcome_bg_1px.png") repeat-x scroll 0 0 transparent;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    vertical-align: middle;
+}
+.top_bar_icons {
+}
+.welcome_user {
+    color: #555960;
+    display: inline;/* modified for space constraint in name display */
+    font-family: arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    width: 151px;
+}
+.welcome_icons {
+    display: inline-block; 
+    height: 30px;
+    position: relative;
+    top: -5px;
+}
+.welcome_icons > span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+}
+.welcome_icons span.userIcon {
+    background: url("../images/icons/icon_user_topbar.png") repeat scroll 0 0 transparent;
+    height: 16px;
+    margin-left: 10px;
+    width: 16px;
+}
+.welcome_icons span.alertIcon {
+    background: url("../images/icons/icon_alert_topbar.png") repeat scroll 0 0 transparent;
+    height: 16px;
+    margin-left: 10px;
+    width: 16px;
+}
+.welcome_icons span.alertIcon span.openAlertCount {
+    background: none repeat scroll 0 0 #FF9999;
+    color: #FFFFFF;
+    height: 14px;
+    left: 10px;
+    position: relative;
+    top: -2px;
+    width: 14px;
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial;
+    font-weight: normal;
+}
+.welcome_icons span.notifIcon {
+    background: url("../images/icons/icon_notifications_topbar.png") repeat scroll 0 0 transparent;
+    height: 16px;
+    margin-left: 10px;
+    width: 16px;
+}
+.welcome_icons span.favIcon {
+    background: url("../images/icons/fav.png") repeat scroll 0 0 transparent;
+    height: 16px;
+    margin-left: 10px;
+    width: 16px;
+}
+.welcome_icons span.timeIcon {
+    background: url("../images/icons/icon_top_timezone.png") repeat scroll 0 0 transparent;
+    height: 16px;
+    margin-left: 10px;
+    width: 16px;
+}
+
+/* start - hide menu bar changes */
+.welcome_icons span.pinUnpinIcon {
+	/* background:url("../images/top_bar/unpin.png") repeat scroll 0 0 transparent; */
+    height: 16px;
+    margin-left: 10px;
+    width: 16px;
+}
+/* end - hide menu bar changes */
+
+.welcome_icons span.notifIcon span.openNotifCount {
+    background: none repeat scroll 0 0 #FF9999;
+    color: #FFFFFF;
+    height: 14px;
+    left: 10px;
+    position: relative;
+    top: -2px;
+    width: 14px;
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial;
+    font-weight: normal;
+}
+.logout_icons {
+    float: right;
+    margin: -32px 0 0;
+    padding-top: 5px;
+    width: 80px;
+}
+.bu_detail {
+    color: #555960;
+    font-family: arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    height: 20px;
+    line-height: 30px;
+    position: relative;
+    padding-right:5px;
+}
+#scheduling {
+    margin: 0;
+    padding: 0;
+}
+#top_menu_bar {
+    background: url("../images/top_bar/top_bar_bg.png") repeat-x scroll 0 0 transparent;
+}
+/* top bar user profile styles (end) */
+#menu>ul>li>a:hover {
+	background: #d1ebf4;
+	color: #555960;
+}
+
+#menu ul li.parent {
+	background: url(../images/Menu/icon_arrow.png) no-repeat left 7px;
+	background-position: 145px;
+	text-transform:capitalize;
+}
+
+#parent 
+{
+    text-transform:capitalize;
+}
